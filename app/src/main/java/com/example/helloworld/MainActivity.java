@@ -23,11 +23,12 @@ import com.example.helloworld.vedio.VedioPlayActivity;
 import com.example.helloworld.widget.LiveDataBus;
 import com.example.helloworld.widget.TimeDownView;
 import com.jeremyliao.liveeventbus.LiveEventBus;
+import com.trello.rxlifecycle2.components.support.RxAppCompatActivity;
 
 import java.util.Observable;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends RxAppCompatActivity {
 
     private static final String TAG = MainActivity.class.getSimpleName();
 
